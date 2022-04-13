@@ -1,6 +1,6 @@
 using System;
 
-namespace Eduhome.Models
+namespace EduHome.Models
 {
     public class ErrorViewModel
     {

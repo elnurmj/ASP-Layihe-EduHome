@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\P126\\ASP Layihe\\Eduhome\\Eduhome\\Eduhome.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\ASP Layihe\\Eduhome\\Eduhome\\Eduhome.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\P126\\ASP Layihe\\Eduhome\\Eduhome\\Eduhome.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\ASP Layihe\\Eduhome\\Eduhome\\Eduhome.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\P126\\ASP Layihe\\Eduhome\\Eduhome\\Eduhome.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\ASP Layihe\\Eduhome\\Eduhome\\Eduhome.csproj",
         "projectName": "Eduhome",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\P126\\ASP Layihe\\Eduhome\\Eduhome\\Eduhome.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\ASP Layihe\\Eduhome\\Eduhome\\Eduhome.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\P126\\ASP Layihe\\Eduhome\\Eduhome\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\ASP Layihe\\Eduhome\\Eduhome\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,9 +44,41 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.23, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.23, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.23, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.23, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.23, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.23, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.27.0, )"
             }
           },
           "imports": [
