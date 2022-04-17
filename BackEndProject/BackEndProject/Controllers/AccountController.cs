@@ -52,16 +52,16 @@ namespace BackEndProject.Controllers
                 Email = registerVM.Email
             };
 
-            //IdentityResult result = await _userManager.CreateAsync(appUser, registerVM.Password);
+            IdentityResult result = await _userManager.CreateAsync(appUser, registerVM.Password);
 
-            //if (!result.Succeeded)
-            //{
-            //    foreach (var error in result.Errors)
-            //    {
-            //        ModelState.AddModelError("", error.Description);
-            //    }
-            //    return View(registerVM);
-            //}
+            if (!result.Succeeded)
+            {
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+                return View(registerVM);
+            }
 
             //await _userManager.AddToRoleAsync(appUser, UserRoles.Member.ToString());
 
