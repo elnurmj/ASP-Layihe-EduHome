@@ -712,3 +712,4 @@ C:\Users\ASUS\Desktop\ASP Layihe\BackEndProject\BackEndProject\obj\Debug\netcore
 C:\Users\ASUS\Desktop\ASP Layihe\BackEndProject\BackEndProject\obj\Debug\netcoreapp3.1\BackEndProject.dll
 C:\Users\ASUS\Desktop\ASP Layihe\BackEndProject\BackEndProject\obj\Debug\netcoreapp3.1\BackEndProject.pdb
 C:\Users\ASUS\Desktop\ASP Layihe\BackEndProject\BackEndProject\obj\Debug\netcoreapp3.1\BackEndProject.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\ASP Layihe\BackEndProject\BackEndProject\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Comment\Index.cshtml.g.cs
