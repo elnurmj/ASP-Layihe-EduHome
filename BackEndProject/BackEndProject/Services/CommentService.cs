@@ -42,7 +42,7 @@ namespace BackEndProject.Services
         {
             Comment comment = await _context.Comments.FirstOrDefaultAsync(m => m.Id == id);
             
-            comment.IsConfirm = true;
+            comment.IsConfirmed = true;
 
             await _context.SaveChangesAsync();
         }
@@ -51,7 +51,7 @@ namespace BackEndProject.Services
         {
             Comment comment = await _context.Comments.FirstOrDefaultAsync(m => m.Id == id);
 
-            comment.IsConfirm = false;
+            comment.IsConfirmed = false;
 
             await _context.SaveChangesAsync();
         }

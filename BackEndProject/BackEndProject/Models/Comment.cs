@@ -12,6 +12,6 @@ namespace BackEndProject.Models
         public string Name { get; set; }
         [Required]
         public string CommentSection { get; set; }
-        public bool IsConfirm { get; set; } = false;
+        public bool IsConfirmed { get; set; } = false;
     }
 }
